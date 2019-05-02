@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="88" prefWidth="320" styleClass="">
+  <children>
+    <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panel" layoutX="8" layoutY="8" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="72" prefWidth="304" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <FlowPane alignment="TOP_LEFT" columnHalignment="CENTER" focusTraversable="false" hgap="5" id="flowPane" layoutX="8" layoutY="8" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" orientation="HORIZONTAL" prefHeight="53" prefWidth="288" rowValignment="CENTER" styleClass="" vgap="5">
+          <children>
+            <CheckBox alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="png" layoutX="0" layoutY="0" prefHeight="24" prefWidth="56" styleClass="check-box " text="png" textAlignment="LEFT" underline="false" wrapText="false">
+              <font>
+                <Font name="System Regular" size="13"/>
+              </font>
+            </CheckBox>
+            <Data cursor="DEFAULT" enabled="1" id="data-png" visible="1"/>
+            <CheckBox alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="jpg" layoutX="61" layoutY="0" prefHeight="24" prefWidth="48" styleClass="check-box " text="jpg" textAlignment="LEFT" underline="false" wrapText="false">
+              <font>
+                <Font name="System Regular" size="13"/>
+              </font>
+            </CheckBox>
+            <Data cursor="DEFAULT" enabled="1" id="data-jpg" visible="1"/>
+            <CheckBox alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="jpeg" layoutX="114" layoutY="0" prefHeight="24" prefWidth="56" styleClass="check-box " text="jpeg" textAlignment="LEFT" underline="false" wrapText="false">
+              <font>
+                <Font name="System Regular" size="13"/>
+              </font>
+            </CheckBox>
+            <Data cursor="DEFAULT" enabled="1" id="data-jpeg" visible="1"/>
+            <CheckBox alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="gif" layoutX="175" layoutY="0" prefHeight="24" prefWidth="48" styleClass="check-box " text="gif" textAlignment="LEFT" underline="false" wrapText="false">
+              <font>
+                <Font name="System Regular" size="13"/>
+              </font>
+            </CheckBox>
+            <Data cursor="DEFAULT" enabled="1" id="data-gif" visible="1"/>
+            <CheckBox alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="bmp" layoutX="228" layoutY="0" prefHeight="24" prefWidth="56" styleClass="check-box " text="bmp" textAlignment="LEFT" underline="false" wrapText="false">
+              <font>
+                <Font name="System Regular" size="13"/>
+              </font>
+            </CheckBox>
+            <Data cursor="DEFAULT" enabled="1" id="data-bmp" visible="1"/>
+            <CheckBox alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="jar" layoutX="0" layoutY="29" prefHeight="24" prefWidth="48" styleClass="check-box " text="jar" textAlignment="LEFT" underline="false" wrapText="false">
+              <font>
+                <Font name="System Regular" size="13"/>
+              </font>
+            </CheckBox>
+            <Data cursor="DEFAULT" enabled="1" id="data-jar" visible="1"/>
+            <CheckBox alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="exe" layoutX="53" layoutY="29" prefHeight="24" prefWidth="48" styleClass="check-box " text="exe" textAlignment="LEFT" underline="false" wrapText="false">
+              <font>
+                <Font name="System Regular" size="13"/>
+              </font>
+            </CheckBox>
+            <Data cursor="DEFAULT" enabled="1" id="data-exe" visible="1"/>
+          </children>
+        </FlowPane>
+        <Data cursor="DEFAULT" enabled="1" id="data-flowPane" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="13"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
+  </children>
+</AnchorPane>
